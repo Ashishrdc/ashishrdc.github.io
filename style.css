@@ -92,6 +92,7 @@ body {
     display: flex;
   }
   
+  
   .navigation li {
     margin-right: 20px;
   }
@@ -257,3 +258,17 @@ body {
     opacity: 0.9;
   }
   
+
+  @media (max-width:800px){
+    .navigation{
+      display: none;
+    }
+
+    .card-content{
+      font-size: 2rem;
+    }
+
+    .footer .copyright{
+      font-size: 10px;
+    }
+  }
