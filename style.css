@@ -266,6 +266,7 @@ body {
 
     .card-content{
       font-size: 2rem;
+      font-weight: bold;
     }
 
     .footer .copyright{
