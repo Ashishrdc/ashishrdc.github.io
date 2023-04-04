@@ -1,6 +1,6 @@
 const scrollToTopBtn = document.querySelector("#scrollToTopBtn");
 
-// Show the button when the user scrolls down 20px from the top of the document
+// Show the button when the user scrolls down 50px from the top of the document
 window.onscroll = function() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     scrollToTopBtn.style.display = "block";
